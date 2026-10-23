@@ -1,0 +1,29 @@
+{
+  "name": "protest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/jitoBundle.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HauptSpace/protest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HauptSpace/protest/issues"
+  },
+  "homepage": "https://github.com/HauptSpace/protest#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.77.4",
+    "jito-ts": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "types": "dist/jitoBundle.d.ts"
+}
