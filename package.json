@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/jitoBundle.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "server": "npm run build && node dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/HauptSpace/protest#readme",
   "dependencies": {
     "@solana/web3.js": "^1.77.4",
+    "bs58": "^6.0.0",
     "jito-ts": "^4.2.1"
   },
   "devDependencies": {
