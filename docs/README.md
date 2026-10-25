@@ -7,6 +7,7 @@
 | `src/blockhash_ws.ts` | Держит свежий blockhash через WebSocket-подписку на слоты | [blockhash_ws.md](blockhash_ws.md) |
 | `src/submit_with_retry.ts` | Ретраи отправки с ростом чаевых, свежим blockhash и расширением регионов | [submit_with_retry.md](submit_with_retry.md) |
 | `src/ipfs.ts` | Загрузка картинки и метаданных токена в IPFS через Pinata | [ipfs.md](ipfs.md) |
+| `src/market_monitor.ts` | Снимок состояния сети и Jito с рекомендацией go / wait / stop | [market_monitor.md](market_monitor.md) |
 | `src/bundle_validation.ts` | Общие проверки бандла (вынесены из `jitoBundle.ts`) | [bundle_validation.md](bundle_validation.md) |
 | `docs/example.ts` | Рабочий пример сборки всех модулей (проходит `tsc`) | — |
 
