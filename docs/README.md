@@ -11,6 +11,8 @@
 | `src/trading.ts` | Автоматический выход из позиции: manual / target / trailing / DCA | [trading.md](trading.md) |
 | `src/raydium.ts` | Создание пула SOL/токен на Raydium (CPMM / CLMM) с блокировкой ликвидности | [raydium.md](raydium.md) |
 | `src/*Config.tsx`, `src/settings_form.tsx`, `src/settings.css` | 8 React-панелей настроек (тёмная тема) | [settings_ui.md](settings_ui.md) |
+| `src/auto_cycle.ts` | Последовательный запуск шагов с общим бюджетом времени | [auto_cycle.md](auto_cycle.md) |
+| `src/types.ts` | Общие типы, `DEFAULT_CONFIG`, `validateConfig`, `toPublicConfig` | [types.md](types.md) |
 | `src/bundle_validation.ts` | Общие проверки бандла (вынесены из `jitoBundle.ts`) | [bundle_validation.md](bundle_validation.md) |
 | `docs/example.ts` | Рабочий пример сборки всех модулей (проходит `tsc`) | — |
 

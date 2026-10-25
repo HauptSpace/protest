@@ -14,13 +14,8 @@ export interface JitoRegion {
   enabled: boolean;
 }
 
-export const DEFAULT_JITO_REGIONS: JitoRegion[] = [
-  { id: 'mainnet', url: 'mainnet.block-engine.jito.wtf', enabled: true },
-  { id: 'amsterdam', url: 'amsterdam.mainnet.block-engine.jito.wtf', enabled: true },
-  { id: 'frankfurt', url: 'frankfurt.mainnet.block-engine.jito.wtf', enabled: true },
-  { id: 'tokyo', url: 'tokyo.mainnet.block-engine.jito.wtf', enabled: false },
-  { id: 'ny', url: 'ny.mainnet.block-engine.jito.wtf', enabled: false },
-];
+/** Список регионов по умолчанию; определён в types.ts вместе с остальным конфигом. */
+export { DEFAULT_JITO_REGIONS } from './types';
 
 export interface MultiRegionSubmitResult {
   /** UUID бандла, выданный Block Engine победившего региона. */
