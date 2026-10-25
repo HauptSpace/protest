@@ -19,10 +19,14 @@
   },
   "homepage": "https://github.com/HauptSpace/protest#readme",
   "dependencies": {
-    "@solana/web3.js": "^1.77.4",
+    "@raydium-io/raydium-sdk-v2": "0.2.74-alpha",
+    "@solana/web3.js": "^1.99.0",
+    "bn.js": "^5.2.5",
+    "decimal.js": "^10.6.0",
     "jito-ts": "^4.2.1"
   },
   "devDependencies": {
+    "@types/bn.js": "^5.2.0",
     "@types/node": "^26.6.5",
     "typescript": "^7.0.2",
     "vitest": "^5.0.5"

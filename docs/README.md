@@ -9,6 +9,7 @@
 | `src/ipfs.ts` | Загрузка картинки и метаданных токена в IPFS через Pinata | [ipfs.md](ipfs.md) |
 | `src/market_monitor.ts` | Снимок состояния сети и Jito с рекомендацией go / wait / stop | [market_monitor.md](market_monitor.md) |
 | `src/trading.ts` | Автоматический выход из позиции: manual / target / trailing / DCA | [trading.md](trading.md) |
+| `src/raydium.ts` | Создание пула SOL/токен на Raydium (CPMM / CLMM) с блокировкой ликвидности | [raydium.md](raydium.md) |
 | `src/bundle_validation.ts` | Общие проверки бандла (вынесены из `jitoBundle.ts`) | [bundle_validation.md](bundle_validation.md) |
 | `docs/example.ts` | Рабочий пример сборки всех модулей (проходит `tsc`) | — |
 
